@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 hurl_core = "4.3.0"
-serde_json = "1.0.119"
+serde_json = { version = "1.0.119", features = ["arbitrary_precision"] }
